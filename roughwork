@@ -1,0 +1,82 @@
+<div  class="mt-10 ">
+          <button id="menu-btn" class="flex flex-col space-y-1 hover:white">
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+          </button>
+        </div>
+          <div class="hidden md:flex space-x-8 items-center justify-center w-1000 mt-10 "
+          >
+          <a href="#" class="text-gray-600 hover:text-black">food recycler</a>
+          <a href="#" class="text-gray-600 hover:text-black">food grounds</a>
+          <a href="#" class="text-gray-600 hover:text-black">for commercial</a>
+        </div>
+         <div id="menu" class="hidden md:hidden px-6 pb-4">
+      <a href="#" class="block py-2 text-gray-600">food recycler</a>
+      <a href="#" class="block py-2 text-gray-600">food grounds</a>
+      <a href="#" class="block py-2 text-gray-600">for comercial</a>
+      <button class="text-center block md:hidden mt-6">
+        <a href="" class="bg-green-500 px-2 py-1 rounded-2xl text-white hover:text-black">shop</a>
+      </button>
+    </div>
+
+
+      <nav class="bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <div class="flex justify-between items-center h-16">
+      
+      <!-- Logo -->
+      <div class="text-xl font-bold text-gray-800">
+        Wear shoes
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex  space-x-8 items-center">
+        <a href="#" class="text-gray-600 hover:text-black"><i class="fa-solid fa-house-user"></i>Home</a>
+        <a href="#" class="text-gray-600 hover:text-black"><i class="fa-solid fa-object-group"></i>Collections</a>
+        <a href="#" class="text-gray-600 hover:text-black"><i class="fa-brands fa-microsoft"></i>Featured</a>
+        <a href="#" class="text-gray-600 hover:text-black"><i class="fa-solid fa-shop-lock"></i>shop</a>
+        
+       
+      </div>
+       
+     
+
+      <!-- Hamburger Button -->
+      <div class="md:hidden">
+        <button id="menu-btn" class="flex flex-col space-y-1">
+          <span class="w-6 h-0.5 bg-black"></span>
+          <span class="w-6 h-0.5 bg-black"></span>
+          <span class="w-6 h-0.5 bg-black"></span>
+        </button>
+      </div>
+       <div> <button id="themeToggle"
+    class="p-3 rounded-full bg-gray-200 dark:bg-gray-800 transition flex items-center justify-center">
+    
+    <!-- Sun Icon -->
+    <svg id="sunIcon" class="w-6 h-6 hidden dark:block" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M6.76 4.84l-1.8-1.79L3.64 5.37l1.79 1.79 1.33-2.32zM1 13h3v-2H1v2zm10-10h2V0h-2v3zm7.66 2.37l1.79-1.79-1.32-1.32-1.79 1.79 1.32 1.32zM20 11v2h3v-2h-3zM11 23h2v-3h-2v3zm7.24-3.16l1.79 1.79 1.32-1.32-1.79-1.79-1.32 1.32zM4.22 18.36l1.79-1.79-1.32-1.32-1.79 1.79 1.32 1.32zM12 18a6 6 0 100-12 6 6 0 000 12z"/>
+    </svg>
+
+    <!-- Moon Icon -->
+    <svg id="moonIcon" class="w-6 h-6 block dark:hidden" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M21 12.79A9 9 0 1111.21 3c0 .34.02.67.05 1A7 7 0 0021 12.79z"/>
+    </svg>
+
+  </button></div>
+
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="menu" class="hidden md:hidden px-6 pb-4">
+    <a href="#" class="block py-2 text-gray-600"><i class="fa-solid fa-house-user"></i>Home</a>
+    <a href="#" class="block py-2 text-gray-600"><i class="fa-solid fa-object-group"></i>collections</a>
+    <a href="#" class="block py-2 text-gray-600"><i class="fa-brands fa-microsoft"></i>featured</a>
+    <a href="#" class="block py-2 text-gray-600"><i class="fa-solid fa-shop-lock"></i>shop</a>
+   
+  </div>
+  
+   
+</nav>
